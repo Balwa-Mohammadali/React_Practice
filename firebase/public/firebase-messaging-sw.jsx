@@ -4,7 +4,7 @@ importScripts(
 );
 
 const firebaseConfig = {
-    apiKey: "REDACTED<<=",
+    apiKey: process.env.FIREBASE_API_KEY,
     authDomain: "first-project-b586b.firebaseapp.com",
     projectId: "first-project-b586b",
     storageBucket: "first-project-b586b.firebasestorage.app",

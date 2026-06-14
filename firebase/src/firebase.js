@@ -4,7 +4,7 @@ import { getAnalytics } from "firebase/analytics";
 import { getMessaging } from "firebase/messaging";
 
 const firebaseConfig = {
-  apiKey: "REDACTED<<=",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "first-project-b586b.firebaseapp.com",
   projectId: "first-project-b586b",
   storageBucket: "first-project-b586b.firebasestorage.app",
